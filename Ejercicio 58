@@ -1,0 +1,23 @@
+//Ejercicio 58
+Algoritmo ContarSignoEnFrase
+    Definir frase como Cadena;
+    Definir ca como Cadena ;
+    Definir cantidad como Entero;
+    Definir i como Entero;
+
+    Escribir "Ingresa una frase: ";
+    Leer frase;
+
+    Escribir "Ingresa el signo que deseas contar: ";
+    Leer ca ;
+
+    cantidad <- 0 ;
+
+    Para i <- 1 Hasta Longitud (frase) Hacer;
+        Si frase = ca Entonces;
+            cantidad <- cantidad + 1 ;
+        FinSi
+    FinPara
+
+    Escribir "El signo ",ca," aparece ", cantidad, " veces en la frase.";
+Finalgoritmo 

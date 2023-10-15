@@ -1,0 +1,11 @@
+//Ejercicio 13
+algoritmo par_impar 
+ definir n1 como real;
+Escribir"Por favor ingrese un número ";
+leer n1;
+si [n1 mod 2=0] entonces ;
+Escribir "es un número par: ";
+Sino;
+Escribir "es  un número impar: ";
+Finsi
+    finalgoritmo

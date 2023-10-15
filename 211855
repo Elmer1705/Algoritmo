@@ -1,0 +1,22 @@
+algoritmo Ejercicio17
+ definir a, b, c como entero;
+Escribir "ingrese primer numero ";
+leer a;
+Escribir "ingrese segundo numero ";
+leer b;
+Escribir "ingrese tercer numero ";
+leer c;
+si a>b entonces; 
+   si a>c entonces ;
+      Escribir "El numero ", a , " es el mayor de los tres. ";
+   sino;
+        Escribir "El numero", c, " es el mayor de los tres. ";
+    Finsi;
+sino;
+    si b>c entonces 
+        Escribir "El numero ", b, " es el mayor de los tres. ";
+    sino;
+        Escribir "El numero ", c, " es el mayor de los tres. ";
+    Finsi;
+Finsi
+finalgoritmo

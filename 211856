@@ -1,0 +1,10 @@
+algoritmo pregunta 18
+ definir edad como entero;
+ Escribir "ingrese tu edad";
+leer edad;
+si edad >= 18 entonces ;
+      Escribir "Eres mayor de edad. ";
+sino
+      Escribir "Eres menor de edad. ";
+Finsi
+finalgoritmo

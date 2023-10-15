@@ -1,0 +1,11 @@
+Algoritmo Ejercicio 44
+   Definir num, como entero;
+   Escribir "Ingrese un número entero positivo:";
+   Leer num;
+   
+   Mientras num> 0 Hacer;
+      Escribir num;
+      num <- num- 1;
+   FinMientras
+   
+FinAlgoritmo

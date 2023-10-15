@@ -1,0 +1,13 @@
+algoritmo Ejercicio 26
+      definir a, b, R, t como real ; 
+      Escribir "Ingrese el precio: ";
+      leer a;
+      Escribir "Ingrese el descuento ejemplo: 0.10 equivale al 10 porciento: ";
+      leer b;
+      si ( a > b )entonces ;
+                    R <- a * b  ;
+            Escribir "El descuento es: $",R;
+                      t <- ( a - R);
+                        Escribir "Total a pagar: $ ", t;
+      finsi
+finalgoritmo

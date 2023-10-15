@@ -1,0 +1,21 @@
+algoritmo Ejercicio 40
+      definir n1, x, n como entero ;
+      n1 <-azar (9) +1 ;
+      x <- 5;
+      mientras x > 0 hacer ;
+            Escribir "ingrese un número ";
+            leer n;
+            si n1 = n entonces ;
+               Escribir "felicidades adivinaste el número es :", n1;
+               x <- 0;
+            sino 
+                  x <- x - 1 ;
+                  si x = 0 entonces ;
+                        Escribir "has fallado los 5 intentos ";
+                        Escribir "El número secreto es ", n1;
+                 sino 
+                  Escribir "fallaste te queda ", x, " intento ";
+                 finsi 
+            finsi 
+      finmientras 
+finalgoritmo

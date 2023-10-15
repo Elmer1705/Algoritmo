@@ -1,0 +1,29 @@
+//Ejercicio 60
+Funcion SumarListaNumeros_numeros
+    Definir suma,  como Entero;
+    suma <- 0;
+    
+    Para i <- 1 Hasta Longitud(numeros) Hacer;
+        suma <- suma + numeros;
+    FinPara
+
+    Retornar<- suma;
+FinFuncion
+
+Algoritmo MiPrograma
+    Definir listaNumeros, SumarListaNumeros como Entero;
+    Definir resultado, n1, n2, n3, n4, n5 como Entero;
+        Escribir "Ingresa el número ";
+         leer n1;
+         Escribir "ingrese el número ";
+         leer n2; 
+         Escribir "ingrese el número ";
+         leer n3;
+         Escribir "ingrese el número ";
+         leer n4;
+         Escribir "ingrese el número ";
+         leer n5;
+
+    resultado<-n1+ n2 + n3 + n4 + n5;
+    Escribir "La suma de los números es:", resultado;
+FinAlgoritmo

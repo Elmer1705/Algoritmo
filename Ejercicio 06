@@ -1,0 +1,13 @@
+Algoritmo Ejercicio 06
+	Definir parteIzquierda Como Entero;
+    Definir parteDerecha Como Entero;
+    Definir resultado como logico;
+	parteIzquierda <- (5 + 3 * 2) + 9;
+    parteDerecha <- (3 * 5 * 14) % 3;
+	Si parteIzquierda > parteDerecha Entonces;
+		resultado <- Verdadero;
+	SiNo
+		resultado <- Falso;
+	Finsi
+    Escribir "El resultado de la expresi�n es: ", resultado;
+FinAlgoritmo

@@ -1,0 +1,11 @@
+algoritmo Ejercicio 39
+      definir n, c, como entero;
+      Escribir "digite su número ";
+      leer n;
+      c <- 0 ;
+      mientras n <> 0 hacer ;
+            n <- trunc(n/10);
+            c <- c + 1 ;  
+            Escribir "El número tiene ", c, " digitos ";
+      finmientras
+    finalgoritmo

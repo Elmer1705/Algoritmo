@@ -1,0 +1,15 @@
+Algoritmo Ejercicio 38
+	Definir cantidadUnidades Como Entero;
+	Definir precioUnitario Como Real;
+	Definir costoTotal Como Real;
+	Escribir "Ingrese la cantidad de unidades a comprar:";
+	Leer cantidadUnidades;
+	Escribir "Ingrese el precio unitario del producto:";
+	Leer precioUnitario;
+	costoTotal <- cantidadUnidades * precioUnitario;
+	Si cantidadUnidades >= 51 y cantidadUnidades <= 100 Entonces;
+		costoTotal <- costoTotal * 0.90 ;
+		Escribir "Se aplic� un descuento del 10%.";
+	FinSi
+	Escribir "El costo total con descuento es de $", costoTotal;
+FinAlgoritmo

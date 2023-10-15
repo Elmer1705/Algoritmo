@@ -1,0 +1,7 @@
+//Ejercicio Ejercicio 51
+Funcion Saludar ( )
+    Escribir "¡Hola! ¡Bienvenido!";
+FinFuncion;
+
+Algoritmo MiPrograma;
+    Saludar() ;

@@ -1,0 +1,10 @@
+Algoritmo Ejercicio 08
+	Definir resultado Como Real;
+	Definir division Como Real;
+    Definir modulo1, modulo2 Como Entero;
+	division <- 260 / 12;
+    modulo1 <-54 % 3;
+    modulo2 <-85 % 7;
+	resultado <- division + modulo1 - modulo2;
+	Escribir "El resultado de la expresi�n es: ", resultado;
+FinAlgoritmo

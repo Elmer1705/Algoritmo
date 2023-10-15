@@ -1,0 +1,16 @@
+Algoritmo Ejercicio 45
+    Definir n, i como Entero;
+    Definir arreglo100 como Entero;
+    Definir suma como Entero;
+   suma <- 0 ;
+    Escribir "Ingrese la cantidad de elementos en el arreglo: ";
+    Leer n;
+
+    Para i <- 1 Hasta n Hacer;
+        Escribir "Ingrese el elemento ", i, ": ";
+        Leer arreglo100;
+        suma <- suma + arreglo100;
+    FinPara
+
+    Escribir "La suma de los elementos del arreglo es: ", suma;
+FinAlgoritmo

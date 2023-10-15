@@ -1,0 +1,14 @@
+algoritmo Ejercicio 20
+definir numero1 como real;
+   Escribir "ingrese un número ";
+   leer numero1;
+   Si numero1 >0 entonces;
+        Escribir "El número es positivo ";
+   sino;
+         Si numero1 <0 entonces;
+               Escribir "El número es negativo ";
+         sino;
+               Escribir "El número es cero ";
+         finsi
+   Finsi
+finalgoritmo

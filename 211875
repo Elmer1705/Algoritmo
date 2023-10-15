@@ -1,0 +1,13 @@
+algoritmo Ejercicio 23
+ definir n1, n2, como entero;
+Escribir "ingrese el primer número. ";
+leer n1 ;
+Escribir "ingrese el segundo número. ";
+leer n2;
+      si n1 = 1 y n2 = 15 entonces ;
+           Escribir "Es primera quincena. "; 
+      finsi
+      si n1 = 16 y n2 = 30 entonces ;
+            Escribir "Es segunda quincena. " ;
+      finsi
+finalgoritmo

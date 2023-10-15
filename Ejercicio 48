@@ -1,0 +1,19 @@
+Algoritmo Ejercicio 48
+    Definir arreglo  como real ;
+    Definir contadorPares i como entero ;
+    contadorPares <- 0;
+
+    Escribir "Ingresa 10 números para llenar el arreglo:";
+    Para i <- 1 Hasta 10 Hacer;
+        Escribir "Ingresa el número ", i;
+        Leer arreglo;
+    FinPara
+
+    Para i <- 1 Hasta 10 Hacer;
+        Si arreglo MOD 2 = 0 Entonces;
+            contadorPares <- contadorPares + 1;
+        FinSi
+    FinPara
+
+    Escribir "El arreglo tiene ", contadorPares, " números pares.";
+FinAlgoritmo 

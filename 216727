@@ -1,0 +1,31 @@
+algoritmo Ejercicio 31
+      definir s, t, antiguedad, bono como real ;
+      Escribir "Escribir el año trabajado en la empresa:"  "años ";
+      leer antiguedad ;
+         si antiguedad >= 5 entonces ;
+             s <- antiguedad * 300;
+               t<- antiguedad * 5 / 100 ;
+                   bono<- s + t ;
+                           Escribir "Su salario con bono de 5% es:$",bono; 
+    finsi
+            sino 
+                 si antiguedad = 1 entonces ;
+                        s <- 12  * 300 ;
+                        Escribir "Su salario sin bono es:$", s;
+            finsi 
+                 sino 
+                      si antiguedad = 2 entonces ;
+                        s <- 24  * 300;
+                        Escribir "Su salario sin bono es:$", s;
+                 finsi 
+                       sino 
+                              si antiguedad = 3 entonces ;
+                        s <-  36 * 300 ;
+                        Escribir "Su salario sin bono es:$", s ;
+                        finsi 
+                             sino
+                                       si antiguedad = 4 entonces ;
+                        s <- 48 * 300;
+                        Escribir "Su salario sin bono es:$", s ;
+                                  finsi  
+    finalgoritmo

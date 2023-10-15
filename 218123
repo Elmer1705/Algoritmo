@@ -1,0 +1,8 @@
+algoritmo Ejercicio 41
+      definir frase como cadena ;
+      definir cant como entero ;
+      Escribir "ingrese una frase:" ;
+      leer frase;
+      cant <- longitud (frase) ;
+      Escribir "Cantidad de carácteres ", cant;
+    finalgoritmo

@@ -1,0 +1,25 @@
+algoritmo Ejercicio19
+   definir peso, estatura, imc,  como real;
+   definir masa como cadena;
+   Escribir "Escribe tu peso en kilogramos ";
+   leer peso;
+   Escribir "Escribe tu estatura en metro ";
+   leer estatura ;
+
+   imc <- peso/ (estatura * estatura );
+
+   si imc <= 18.4 entonces;
+       masa <- " Bajo peso";
+   Finsi
+   si imc >= 18.5 y imc <= 24.9 entonces;
+       masa <- " Peso normal ";
+   Finsi
+   Si imc >= 25 y imc <= 29.9 entonces;
+       masa <- " sobrepeso";
+   Finsi 
+   Si imc >= 30 entonces; 
+       masa <- "Obesidad";
+   Finsi 
+   Escribir "Tu índice de masa corporal es:", imc, 
+      " tienes ", masa;
+finalgoritmo

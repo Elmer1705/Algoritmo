@@ -1,0 +1,37 @@
+algoritmo Ejercicio 33 
+      definir n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, t como entero;
+      Escribir "ingrese el primer mes ";
+      leer n1;
+      Escribir "ingrese el segundo mes ";
+      leer n2;
+      Escribir "ingrese el tercer mes ";
+      leer n3;
+      Escribir "ingrese el cuarto mes ";
+      leer n4;
+      Escribir "ingrese el quinto mes ";
+      leer n5;
+      Escribir "ingrese el sexto mes ";
+      leer n6;
+      Escribir "ingrese el septimo mes ";
+      leer n7;
+      Escribir "ingrese el octavo mes ";
+      leer n8;
+      Escribir "ingrese el noveno mes ";
+      leer n9; 
+      Escribir "ingrese el décimo mes ";
+      leer n10;
+      Escribir "ingrese el onceavo mes ";
+      leer n11;
+      Escribir "ingrese el doceavo mes ";
+      leer n12; 
+               t<- n1+ n2 + n3 +n4 + n5 +n6 + n7 + n8 +n9 + n10 + n11 + n12, ;
+                  si t >= 500 entonces ;
+                        Escribir "Su total de todo el año es:$",t ;
+                        Escribir "Tendrá un descuento del 10 % en su próxima compra gracias. ";
+             finsi 
+                  sino 
+                       si t < 500 entonces ;
+                              Escribir "Su total de todo el año es:$", t;
+                                 Escribir "No tendrá descuento gracias. ";
+                  finsi 
+finalgoritmo

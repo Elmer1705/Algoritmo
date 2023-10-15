@@ -1,0 +1,10 @@
+algoritmo Ejercicio28
+      definir actual , aum, ns  como entero ;
+      Escribir "salario actual ";
+      leer actual ;
+      Escribir "el aumento ";
+      leer  aum;
+            ns <- actual + aum ;
+                      Escribir "El nuevo salario es:$", ns ;
+      finsi
+finalgoritmo

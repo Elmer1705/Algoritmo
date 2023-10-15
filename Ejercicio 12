@@ -1,0 +1,9 @@
+algoritmo Ejercicio 12
+definir base, altura, area como real;
+Escribir "ingrese la base del triángulo ";
+leer base;
+Escribir "ingrese la altura del triángulo ";
+leer altura ;
+area<-(base*altura)/2;
+Escribir "El area del triángulo es igual a : ", area;
+finalgoritmo

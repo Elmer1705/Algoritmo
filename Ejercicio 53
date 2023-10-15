@@ -1,0 +1,18 @@
+//Ejercicio 53
+Funcion MultiplicarNumeros_numero1_numero2
+    Definir resultado como Entero;
+    resultado <- numero1 * numero2;
+    MultiplicarNumeros <- resultado;
+FinFuncion
+
+Algoritmo MiPrograma
+    Definir num1, num2, producto como Entero;
+
+    Escribir "Ingresa el primer número: ";
+    Leer num1;
+    Escribir "Ingresa el segundo número: ";
+    Leer num2;
+
+    producto <- (num1 * num2);
+    Escribir "El producto de ", num1, " y ", num2, " es igual a ", producto;
+FinAlgoritmo

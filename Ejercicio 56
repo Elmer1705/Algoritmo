@@ -1,0 +1,8 @@
+//Ejercicio 56
+Funcion ImprimirNombre()
+    Escribir "Mi nombre es: [Elmer Zambrano Arreaga ]";
+FinFuncion
+
+Algoritmo MiPrograma;
+    ImprimirNombre() ;
+FinAlgoritmo 

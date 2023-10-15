@@ -1,0 +1,20 @@
+algoritmo Ejercicio 34
+      definir n1,  como numerico;
+      Escribir"Ingrese la cantidad de unidades de el producto ";
+      leer n1;
+      si n1 <= 9 entonces ;
+            Escribir "No tendrá descuento. ";
+ finsi
+      sino 
+           si n1 >= 10 y n1 <= 50 entonces ;
+                  Escribir "Tendrás un descuento del 5%. ";
+      finsi 
+           sino 
+                si n1 >= 51 y n1 <= 100 entonces ;
+                        Escribir "Tendrás un descuento del 10%. ";
+           finsi
+                sino 
+                     si n1 >= 101 entonces ;
+                           Escribir "Tendrá un descuento del 15%. ";
+                finsi 
+finalgoritmo

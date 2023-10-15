@@ -1,0 +1,18 @@
+algoritmo Ejercicio 35
+      definir hora, precio, r, r2, total como numerico;
+      Escribir "ingrese la hora que necesitas ";
+      leer hora; 
+      Escribir " ingrese el precio de la hora ";
+      leer precio ;
+               si hora es >= 10 entonces ;
+                       r<- hora * 20 / 100 ;
+                          r2<-  hora * precio ;
+                              total <- r2 - r ;
+                           Escribir "Su costo por hora incluido descuento es:$", total;
+          finsi
+               sino 
+                    si hora <= 9 entonces ;
+                        r <- hora * precio ;
+                           Escribir " Su costo por hora es:$",r ;
+               finsi
+    finalgoritmo

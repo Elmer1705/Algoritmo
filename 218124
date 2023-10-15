@@ -1,0 +1,10 @@
+algoritmo Ejercicio 42
+      definir impares, i como entero ;
+      impares <- 0;
+      para i <- 1 hasta 100 hacer ;
+              
+                  impares <- impares + i;
+               finsi 
+      finpara 
+      Escribir "La suma de los impares es de: ", impares ;
+    finalgoritmo

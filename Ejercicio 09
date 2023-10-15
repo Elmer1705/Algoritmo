@@ -1,0 +1,8 @@
+Algoritmo Ejercicio 09
+	Definir condicion1, resultado Como Logico;
+    condicion1 <- 48 < 2 * 3;
+	Definir condicion2 Como Logico ;
+	condicion2 <- 2 * 7 < 12;
+	resultado <- condicion1 O condicion2;
+	Escribir "El resultado de la expresi�n es: ", resultado;
+FinAlgoritmo

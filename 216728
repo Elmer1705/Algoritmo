@@ -1,0 +1,14 @@
+algoritmo Ejercicio 32
+definir envio , pagar, como entero ;
+      Escribir "ingrese la distancia del envío:" ;
+      leer envio ;
+         si envio <= 50 entonces ;
+                     pagar <- 10;
+                           Escribir "El envío vale:$", pagar;
+    finsi
+         sino 
+                  si envio > 51 entonces ;
+                             pagar <- 20 ;
+                                       Escribir "El envío vale:$", pagar;
+             finsi 
+    finalgoritmo

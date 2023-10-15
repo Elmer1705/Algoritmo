@@ -1,0 +1,11 @@
+Algoritmo Ejercicio 10
+	Definir resultado Como Logico ;
+	Definir condicion1 Como Logico ;
+    condicion1 <- 8 > 2;
+	Definir condicion2 Como Logico ;
+    condicion2 <- 932 < 23;
+	Definir condicion3 Como Logico ;
+    condicion3 <- 4 == 2;
+	resultado <- (condicion1 | condicion2) & condicion3;
+	Escribir "El resultado de la expresi�n es: ", resultado;
+FinAlgoritmo

@@ -1,0 +1,19 @@
+algoritmo Pregunta29
+      definir n1, n2, t, r , d como real ;
+      Escribir "ingrese cantidad del artículo ";
+      leer n1;
+      Escribir "ingrese la cantidad de artículos comprado ";
+      leer n2;
+               t <-  n1 * n2 ;
+                         si t >= 100 entonces ;
+                                r<-  t * 10 / 100 ;
+                                    d<-  t - r ;
+                                         Escribir "Resultado con 10% de descuento es: $ ", d ;
+                   finsi
+                          sino 
+                                si t < 100 entonces ;
+                              Escribir "Resultado total de pagar sin descuento es: $", t;
+                           finsi 
+                              
+                        
+    finalgoritmo

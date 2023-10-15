@@ -1,0 +1,34 @@
+Algoritmo Ejercicio 49
+    Definir arreglo, i como Entero;
+    Definir arregloInvertido como Entero;
+    Definir longituds como Entero;
+    longituds <- 10;
+
+    Escribir "Ingresa 10 números para llenar el arreglo:";
+    Para i <- 1 Hasta longituds Hacer;
+        Escribir "Ingresa el número ", i;
+        Leer arreglo;
+    FinPara
+
+    Escribir "Arreglo original: [";
+    Para i <- 1 Hasta longituds Hacer;
+        Escribir arreglo;
+        Si i < longituds Entonces;
+            Escribir ", ";
+        FinSi
+    FinPara
+    Escribir "]";
+
+    Para i <- 1 Hasta longituds Hacer;
+        arregloInvertido <- longituds - i + 1];
+    FinPara
+
+    Escribir "Arreglo invertido: [";
+    Para i <- 1 Hasta longituds Hacer;
+        Escribir arregloInvertido;
+        Si i < longituds Entonces;
+            Escribir ", ";
+        FinSi
+    FinPara
+    Escribir "]";
+FinAlgoritmo

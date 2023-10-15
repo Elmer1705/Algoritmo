@@ -1,0 +1,22 @@
+//Ejercicio 14
+algoritmo calculadora 
+definir n1, n2, opciones, resultado como real ;
+Escribir "ingrese numero 1";
+leer n1 ;
+Escribir "ingrese numero 2 ";
+leer n2 ;
+Escribir "ingrese lo que decea optener ";
+Escribir "1. Suma ";
+Escribir "2. Resta ";
+Escribir "3. Multiplicar";
+Escribir "4. división ";
+leer opciones ;
+1.resultado<-n1+n2;
+Escribir "la respuesta de la suma es: ", resultado;
+2.resultado <-n1-n2;
+Escribir "la respuesta de la resta es: ", resultado ;
+3.resultado <-n1*n2;
+Escribir "la respuesta de la multiplicacion es: ", resultado ;
+4.resultado <-n1/n2;
+Escribir "la respuesta de la división es: ", resultado ;
+finalgoritmo

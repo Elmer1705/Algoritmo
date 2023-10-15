@@ -1,0 +1,14 @@
+algoritmo Ejercicio25
+      definir a, b como cadena;
+      Escribir "ingrese letra uno ";
+      leer a;
+      Escribir "ingrese letra uno ";
+      leer b;
+      si a = b entonces ;
+            Escribir "La letra son iguales ";
+      finsi
+           si a <> b entonces ;
+
+                   Escribir "la letra no son iguales";
+              finsi
+finalgoritmo

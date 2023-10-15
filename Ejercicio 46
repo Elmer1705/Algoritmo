@@ -1,0 +1,17 @@
+Algoritmo Ejercicio 46
+    Definir n, i como Entero;
+    Definir calificaciones100 como Real;
+    Definir sum, promedio como Real;
+   Definir suma como real ;
+    Escribir "Ingrese la cantidad de calificaciones: ";
+    Leer n;
+   suma <- 0 ;
+    Para i <- 1 Hasta n Hacer;
+        Escribir "Ingrese la calificación ", i, ": ";
+        Leer calificaciones100;
+        sum <- suma + calificaciones100;
+    FinPara
+
+    promedio <- sum / n;
+    Escribir "El promedio de las calificaciones es: ", promedio;
+FinAlgoritmo

@@ -1,0 +1,32 @@
+algoritmo Ejercicio 24
+      definir dia como entero;
+      Escribir "ingrese un número del 1 al 7 ";
+      leer dia;
+      si (dia = 1) entonces ;
+            Escribir "Domingo ";
+      sino 
+            si (dia = 2) entonces ;
+                  Escribir "Lunes ";
+            sino
+                  si (dia = 3)entonces ;
+                        Escribir "Marte ";
+                  sino
+                        si ( dia = 4) entonces ;
+                              Escribir "Miércoles ";
+                        sino
+                             si ( dia = 5) entonces ;
+                                    Escribir "Jueves ";
+                              sino 
+                                   si (dia = 6 ) entonces ;
+                                          Escribir "Viernes ";
+                                   sino
+                                       si (dia = 7)entonces;
+                                               Escribir "Sábado ";
+                                       finsi
+                                   finsi
+                               finsi
+                           finsi
+                       finsi 
+                   finsi
+               finsi
+finalgoritmo

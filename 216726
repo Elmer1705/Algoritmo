@@ -1,0 +1,22 @@
+algoritmo pregunta 30
+      definir sa, d, t como real ;
+      Escribir "ingrese su salario anual: ";
+      leer sa;
+               si sa <= 10000 entonces ;
+                   d<- sa * 5 / 100 ;
+                       t<- sa - d ;
+                     Escribir "Su salario anual incluyendo impuesto sobre la renta es:$", t;
+          finsi
+               sino
+                     si sa >= 10001 y sa <= 19999 entonces ;
+                           d<- sa * 10 / 100 ;
+                           t<- sa - d ;
+                     Escribir "Su salario anual incluyendo impuesto sobre la renta es:$", t;
+                finsi 
+                     sino 
+                          si sa >= 20000 entonces; 
+                                       d<- sa * 15 /100 ;
+                                             t<- sa - d ;
+                                             Escribir "Su salario anual incluyendo impuesto sobre la renta es:$", t;
+                           finsi 
+finalgoritmo
